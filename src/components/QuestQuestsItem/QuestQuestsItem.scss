@@ -1,0 +1,60 @@
+@import '../../scss/global.scss';
+
+.quest-quests-item {
+  height: auto;
+  background-color: rgb(0, 0, 0, 60%);
+
+  padding-left: 17px;
+  padding-right: 17px;
+
+  padding-top: 9px;
+  padding-bottom: 9px;
+
+  cursor: pointer;
+  border-radius: $main-border-radius-block;
+  margin-bottom: 8px;
+}
+
+.quest-quests-item:last-child {
+  margin-bottom: 0px;
+}
+
+.quest-quests-item-title {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.quest-quests-item-amount {
+  color: #ffbf1a;
+  font-size: 12px;
+}
+
+.quest-quests-item-container {
+  padding-left: 17px;
+  padding-right: 15px;
+}
+
+.quest-quests-item-completed {
+  opacity: 60%;
+  cursor: auto;
+}
+
+.quest-quests-item-logo-container {
+  min-width: 44px;
+  width: 44px;
+  height: 44px;
+}
+
+.quest-quests-item-button {
+  // width: 25px;
+  width: 29.7px;
+}
+
+@media (max-width: 349.09px) {
+  .quest-quests-item-title {
+    font-size: 12px;
+  }
+  .quest-quests-item-amount {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,41 @@
+@import '../../scss/global.scss';
+
+.refferal-friends-container {
+
+    min-height: 288px;
+    height: 288px;
+
+    margin-top: 5px;
+    background-color: $main-bg-block;
+    
+    border-radius: $main-border-radius-block;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.refferal-friends-container-header {
+    margin-bottom: 12px;
+}
+
+.refferal-friends-container-title {
+    font-size: 12px;
+    line-height: 14px;
+    color: #B0B0B0;
+}
+
+.refferal-friends-container-reload-await {
+    opacity: 30%;
+}
+
+.refferal-friends-container-reload-text {
+    color: white;
+    font-size: 11px;
+}
+
+.refferal-friends-container-friends {
+    max-height: 234px;
+}

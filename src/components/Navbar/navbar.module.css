@@ -1,0 +1,113 @@
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 90%;
+}
+
+.container {
+  height: 65px;
+  width: 100%;
+  background-color: #171027;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 15px; */
+  margin-bottom: 25px;
+
+  padding-right: 10px;
+  padding-left: 10px;
+  opacity: 0.9;
+}
+
+.game {
+  width: 20%;
+  margin-top: -20px;
+  align-items: center;
+  justify-content: center;
+
+  width: 85px;
+  height: 85px;
+}
+
+.item {
+  /* height: 60px; */
+  /* max-height: 40px; */
+  width: 50px;
+  /* margin: 0 auto; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none !important;
+  justify-content: center;
+
+  color: #fff !important;
+}
+
+.info {
+  position: relative;
+  bottom: 36px;
+  left: 30px;
+  text-decoration: none;
+  width: 18px;
+  height: 18px;
+}
+
+.text {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  display: flex;
+  justify-content: center;
+  bottom: 49px;
+  left: 28px;
+  font-size: 12px;
+}
+
+.star1 {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  bottom: 10px;
+  left: 0px;
+}
+
+.star1.visible {
+  opacity: 1;
+}
+
+.star1.non-visible {
+  opacity: 0;
+}
+
+.star2 {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  bottom: 10px;
+  left: 1px;
+}
+
+.star2.visible {
+  opacity: 1;
+}
+
+.star2.non-visible {
+  opacity: 0;
+}
+
+.navbar-text {
+  color: #fff !important;
+}
+
+.navbar-text-active {
+  color: #B28E4C !important;
+}
+
+@media (max-width: 307.2px) {
+  .navbar_container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

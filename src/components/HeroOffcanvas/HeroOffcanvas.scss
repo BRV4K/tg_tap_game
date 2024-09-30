@@ -1,0 +1,90 @@
+@import '../../scss/global.scss';
+
+.offcanvas_img {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+.hero-offcanvas-name {
+  font-size: 24px;
+  color: #ffffff;
+}
+.hero-offcanvas-description {
+  font-size: 13px;
+  color: #b0b0b0;
+}
+.hero-offcanvas-race {
+  color: #B28E4C;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.hero-offcanvas-level {
+  color: #b0b0b0;
+  font-size: 16px;
+}
+
+.hero-offcanvas-damage,
+.hero-offcanvas-prestige {
+  opacity: 20%;
+}
+
+.hero-offcanvas-damage,
+.hero-offcanvas-rank,
+.hero-offcanvas-prestige {
+  color: #b0b0b0;
+  font-size: 14px;
+}
+
+
+.offcanvas_cont {
+  background-color: $main-bg-offcanvas;
+  height: 100%;
+  padding: 0 22px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  // h3 {
+  //   font-size: 6vw;
+  //   color: white;
+  //   margin: 0;
+  // }
+
+  // p {
+  //   font-size: 4vw;
+  //   color: #b0b0b0;
+  //   margin: 0;
+  // }
+
+  span {
+    color: #b28e4c;
+    font-size: 5vw;
+    margin: 0;
+  }
+}
+
+.offcanvas_img {
+  width: 35vw;
+}
+
+.offcanvas_indicators_box {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: $main-border-radius-block;
+}
+
+.priceup_text_offcanvas {
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 30%;
+
+  h5 {
+    font-size: 6vw;
+  }
+  h6 {
+    font-size: 5vw;
+    color: #b0b0b0;
+  }
+}

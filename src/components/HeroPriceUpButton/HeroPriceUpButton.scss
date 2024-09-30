@@ -1,0 +1,44 @@
+.price-up-button {
+  cursor: pointer;
+}
+
+.priceup_text {
+  align-items: center;
+  position: absolute;
+  top: 3px;
+  left: 30%;
+}
+
+.price-up-button-dis {
+  opacity: 0.5;
+}
+
+@media (max-width: 340px) {
+  .priceup_text {
+    left: 25%;
+  }
+}
+
+.price-up-button-text {
+    font-size: 15px;
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.price-up-button-price {
+    font-size: 12px;
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 11px;
+}
+.price-up-button-text-offCanvas {
+  font-size: 22px;
+  line-height: 23px;
+}
+.price-up-button-price-offCanvas {
+  font-size: 16px;
+  line-height: 17px;
+}

@@ -1,0 +1,36 @@
+.damage-container {
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: rgba(23, 16, 39, 0.5);
+  border-radius: 4px;
+  padding: 3px;
+
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.damage-item {
+  color: #B0B0B0;
+  padding: 0;
+}
+
+.locked-item {
+  opacity: 30%;
+}
+
+.damage-header {
+  font-size: 8px;
+  line-height: 0.75;
+}
+
+.damage-text {
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.lock-dps {
+  top: 0;
+  left: 40%;
+  margin: auto;
+}
+

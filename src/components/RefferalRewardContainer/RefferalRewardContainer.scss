@@ -1,0 +1,22 @@
+@import '../../scss/global.scss';
+
+.refferal-reward-container {
+
+    height: 219px;
+    min-height: 219px;
+
+    margin-top: 5px;
+    background-color: $main-bg-block;
+    
+    border-radius: $main-border-radius-block;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    padding: 8px;
+    padding-bottom: 0px;
+}
+
+.refferal-reward-btn-container {
+    padding: 8px;
+    // background-color: rgb(41, 30, 32, 80%);
+}

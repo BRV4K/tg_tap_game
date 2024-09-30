@@ -1,0 +1,74 @@
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 90%;
+}
+
+.container {
+  height: 65px;
+  width: 100%;
+  // background-color:  #171027;
+  background-color: $main-bg;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.game {
+  width: 20%;
+  margin-top: -20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  height: 90px;
+  width: auto;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  position: relative;
+  bottom: 60px;
+  left: 40px;
+}
+
+.text {
+  position: relative;
+  bottom: 83px;
+  left: 43px;
+}
+
+.star1 {
+  position: relative;
+  bottom: 47px;
+  left: 40px;
+
+  &.visible {
+    opacity: 1;
+  }
+
+  &.non-visible {
+    opacity: 0;
+  }
+}
+
+.star2 {
+  position: relative;
+  bottom: 71px;
+  left: 53px;
+
+  &.visible {
+    opacity: 1;
+  }
+
+  &.non-visible {
+    opacity: 0;
+  }
+}

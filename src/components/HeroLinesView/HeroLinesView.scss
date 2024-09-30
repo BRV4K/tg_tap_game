@@ -1,0 +1,206 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.level_text {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 1.5vw;
+  text-align: center;
+
+  p {
+    font-size: 5vw;
+  }
+}
+
+.rang0 {
+  border: 4px solid #686d76;
+}
+
+.rang1 {
+  border: 4px solid #3d6250;
+}
+
+.rang2 {
+  border: 4px solid #363f5d;
+}
+
+.rang3 {
+  border: 4px solid #925925;
+}
+
+.rang4 {
+  border: 4px solid #ac3838;
+}
+
+.rang5 {
+  border: 4px solid #470f33;
+}
+
+.rang6 {
+  border: 4px solid #c9b445;
+}
+
+// .border_box_locked {
+//   background-color: #b28e4c;
+//   opacity: 0.5;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   padding: 1px;
+//   width: 103%;
+//   margin-bottom: 5px;
+// }
+
+.line_box_unlocked,
+.line_box_unlocked:before,
+.line_box_locked,
+.line_box_locked:before,
+.border_box,
+.line_box_activate,
+.border_box_locked {
+  clip-path: polygon(
+    0% 5px,
+    /* верхняя левая */ 5px 0%,
+    /* верхняя левая */ calc(100% - 5px) 0%,
+    /* верхняя правая */ 100% 5px,
+    /* верхняя правая */ 100% calc(100% - 5px),
+    /* нижняя правая */ calc(100% - 5px) 100%,
+    /* нижняя правая */ 5px 100%,
+    /* нижняя левая */ 0 calc(100% - 5px) /* нижняя левая */
+  );
+}
+
+h5 {
+  font-size: 3.5vw;
+  margin: 0;
+  color: #b0b0b0;
+  font-weight: 400;
+}
+
+// .priceup_button {
+//   position: absolute;
+//   left: 45%;
+//   bottom: 5%;
+// }
+
+@media (max-width: 340px) {
+  // .priceup_button {
+  //   margin-top: 5px;
+  //   position: static;
+  //   left: 0;
+  //   bottom: 0;
+  // }
+}
+
+.line_img {
+  width: 28.5vw;
+}
+
+.line_img_lock {
+  width: 25vw;
+  filter: grayscale(100%);
+}
+
+// .line_box_locked {
+//   background: #373132;
+//   width: 100%;
+//   height: auto;
+//   border: 1px solid #b28e4c;
+//   position: relative;
+//   padding: 6vw;
+
+//   p {
+//     color: #b0b0b0;
+//     font-size: 3vw;
+//   }
+
+//   h3 {
+//     margin: 0;
+//     font-size: 6vw;
+//     color: white;
+//   }
+// }
+
+// .priceup_button_locked {
+//   position: absolute;
+//   bottom: 5vw;
+//   right: 2vw;
+// }
+
+// @media (max-width: 340px) {
+//   .priceup_button_locked {
+//     margin-top: 5px;
+//     position: relative;
+//     left: 0;
+//     bottom: 0;
+//   }
+// }
+
+.unlocked_border {
+  position: absolute;
+  top: -17%;
+  left: -16%;
+}
+
+// .vopros {
+//   position: absolute;
+//   top: 0;
+// }
+
+.grid_border {
+  padding: 2px;
+  border: 2px solid #4c363c;
+}
+
+// .activate_text {
+//   position: absolute;
+//   top: 0.7vw;
+//   left: 6vw;
+
+//   span {
+//     font-size: 3.3vw;
+//     color: #b0b0b0;
+//   }
+// }
+
+// @media (max-width: 340px) {
+//   .activate_text {
+//     left: 6vw;
+//     top: 0;
+//   }
+// }
+
+// .line_box_activate {
+//   background: #2a2627;
+//   width: 100%;
+//   height: auto;
+//   border: 1px solid #b28e4c;
+//   position: relative;
+//   padding: 6vw;
+
+//   p {
+//     color: #b0b0b0;
+//     font-size: 3vw;
+//   }
+
+//   h3 {
+//     font-size: 6vw;
+//     color: white;
+//   }
+// }
+
+.inner_border {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.inner_border_grid {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}

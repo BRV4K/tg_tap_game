@@ -1,0 +1,101 @@
+.border_box_locked {
+  // background-color: #b28e4c;
+  //   opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  //   width: 103%;
+  margin-bottom: 6px;
+
+  height: 126px;
+}
+
+.line_box_locked {
+  background-color: rgb(0, 0, 0, 50%);
+  width: 100%;
+  height: auto;
+  // border: 1px solid #b28e4c;
+  position: relative;
+  padding: 3px 17px 20px 20px;
+}
+
+.priceup_button_locked {
+//   position: absolute;
+//   bottom: 5vw;
+//   right: 2vw;
+}
+
+@media (max-width: 340px) {
+  .priceup_button_locked {
+    // margin-top: 5px;
+    // position: relative;
+    // left: 0;
+    // bottom: 0;
+  }
+}
+
+.line_img_lock {
+  width: 83px;
+  height: 83px;
+  filter: grayscale(100%);
+
+  opacity: 0.5;
+}
+
+.unlocked_border {
+  position: absolute;
+  top: -17%;
+  left: -16%;
+}
+
+.vopros {
+  position: absolute;
+  top: 0;
+}
+
+.line_box_locked,
+.line_box_locked:before,
+.border_box,
+.border_box_locked {
+  clip-path: polygon(
+    0% 5px,
+    /* верхняя левая */ 5px 0%,
+    /* верхняя левая */ calc(100% - 5px) 0%,
+    /* верхняя правая */ 100% 5px,
+    /* верхняя правая */ 100% calc(100% - 5px),
+    /* нижняя правая */ calc(100% - 5px) 100%,
+    /* нижняя правая */ 5px 100%,
+    /* нижняя левая */ 0 calc(100% - 5px) /* нижняя левая */
+  );
+}
+
+.hero-lines-view-locked-name {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+
+  opacity: 0.5;
+}
+
+.hero-lines-view-locked-description {
+  font-size: 12px;
+  line-height: 12px;
+  color: #b0b0b0;
+  margin: 0;
+
+  opacity: 0.5;
+
+  margin: 0; /* Убираем внешний отступ */
+  -webkit-line-clamp: 2; /* Число отображаемых строк */
+  display: -webkit-box; /* Включаем флексбоксы */
+  -webkit-box-orient: vertical; /* Вертикальная ориентация */
+  overflow: hidden; /* Обрезаем всё за пределами блока */
+}
+
+
+@media (max-width: 349.09px) {
+  .border_box_locked {
+    height: auto;
+  }  
+}

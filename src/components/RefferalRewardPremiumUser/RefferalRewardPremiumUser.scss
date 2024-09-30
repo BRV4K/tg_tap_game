@@ -1,0 +1,41 @@
+@import '../../scss/global.scss';
+
+.refferal-reward-premium-user {
+    // min-width: 210px;
+    max-height: 78px;
+    background-color: $main-bg-block;
+    border-radius: $main-border-radius-block;
+
+    margin-left: 2.5px;
+
+    padding: 10px;
+}
+
+.refferal-reward-premium-user-icon {
+    width: 27px;
+    height: 42px;
+    margin-right: 7px;
+}
+
+.refferal-reward-premium-user-amount {
+    font-size: 32px;
+    color: #fff; 
+    line-height: 30px;  
+}
+
+.refferal-reward-premium-user-info {
+    font-size: 12px;
+    color: #B0B0B0;
+    line-height: 12px;
+    text-align: center;
+}
+
+.refferal-reward-premium-user-bg-crystal {
+    width: 79px;
+    height: 78px;
+    background-size: 79px 78px;
+    background-repeat: no-repeat;
+    background-image: url('../../../public/img/loot/refferal/refferal-user-crystal.png');
+
+    right: 3px !important;
+}

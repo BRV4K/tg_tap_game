@@ -1,0 +1,12 @@
+.activate_text {
+    position: absolute;  
+    span {
+      font-size: 14px;
+      color: #b0b0b0;
+    }
+  }
+  
+  @media (max-width: 340px) {
+    .activate_text {
+    }
+  }

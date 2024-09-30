@@ -1,0 +1,63 @@
+@import '../../scss/global.scss';
+
+.start-loading-bg {
+    background-color: $main-bg;
+}
+
+.start-loading-loader {
+    margin-bottom: 63px;
+}
+
+.start-loading-text-info,
+.start-loading-text-ton {
+    color: #B0B0B0;
+    font-weight: bold;
+}
+
+.start-loading-text-info {
+    line-height: 20px;
+    font-size: 24px;
+}
+
+.start-loading-text-ton {
+    line-height: 50px;
+    font-size: 64px;
+}
+
+.start-loading-icon-ton {
+    margin-right: 8px;
+}
+
+.start-loading-text-channel {
+    color: #B0B0B0;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.start-loading-ton-container {
+    margin-bottom: 63px;
+}
+
+.start-loading-bg-image {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('../../../public/img/background/start-loading-background-20.png');
+    backface-visibility: 20%;
+
+    padding-bottom: 21px;
+    // padding-top: 90px;
+}
+
+.rotate-img {
+    animation: rotate-img 8s linear infinite;
+}
+
+@keyframes rotate-img {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

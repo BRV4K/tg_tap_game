@@ -1,0 +1,25 @@
+.workshop_box {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 2px;
+  width: 116px;
+  height: 40px;
+
+  border-radius: 4px;
+}
+
+.workshop_box_text {
+  font-size: 14px;
+  color: #B0B0B0;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+.small_lock {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+}
+
+.workshop_box_content {
+  opacity: 20%;
+}

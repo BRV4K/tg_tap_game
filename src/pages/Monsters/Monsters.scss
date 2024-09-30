@@ -1,0 +1,41 @@
+.health_bar {
+    bottom: 115px;
+}
+
+.canvas {
+    top: 15%;
+}
+
+.gamescreen-coin {
+    width: 21px;
+}
+
+.checkbox {
+    top: 80px;
+    right: 10px;
+    width: 70px;
+    font-size: 12px;
+    color: white;
+    overflow-wrap: break-word;
+}
+
+.money {
+    font-size: 32px;
+    font-weight: 700;
+    color: #DC9F44;
+    margin-left: 12px;
+    text-shadow: rgba(0, 0, 0, 0.5) 4px 4px 4px;
+    animation: money 0.5s linear ;
+}
+
+@keyframes money {
+    0% {
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+    }
+}

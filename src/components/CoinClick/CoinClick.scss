@@ -1,0 +1,58 @@
+.coin-click-container {
+    position: absolute;
+    bottom: 35%;
+    transition: 0.5s;
+    height: 35%;
+  }
+  
+  .coin-click-container.anim:active {
+    transform: scale(0.85);
+  }
+  
+  .damage {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    white-space: nowrap;
+    animation: damage 1.5s linear;
+  }
+  
+  @keyframes damage {
+    0% {
+      opacity: 0.6;
+      transform: translateY(0);
+    }
+  
+    100% {
+      opacity: 0;
+      transform: translateY(-200px);
+    }
+  }
+  
+  .coin-img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+  }
+  
+  .coin-img.idle {
+    animation: coin-idle 5s linear infinite;
+  }
+  
+  @keyframes coin-idle {
+    0% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(-10px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }

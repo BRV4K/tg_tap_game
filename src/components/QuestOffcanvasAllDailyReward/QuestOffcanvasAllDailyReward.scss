@@ -1,0 +1,55 @@
+@import '../../scss/global.scss';
+
+.quest-offcanvas-all-daily-reward {
+    min-height: 80%;
+    background-color: $main-bg-offcanvas;
+    // padding-top: 20px;
+    padding-top: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 10px;
+}
+
+.quest-offcanvas-all-daily-reward-title {
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+}
+
+.quest-offcanvas-all-daily-text-timer {
+    color: #B0B0B0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.quest-offcanvas-all-daily-timer {
+    color: #B0B0B0;
+    font-size: 18px;
+}
+
+.quest-offcanvas-all-daily-image-container {
+    margin-right: 14px;
+
+    img {
+        width: 97px;
+        height: 100px;
+        opacity: 60%;
+    }
+}
+
+.quest-offcanvas-all-daily-reward-title-container {
+    margin-bottom: 23px;
+}
+
+@media (max-width: 349.09px) {
+    .quest-offcanvas-all-daily-image-container img {
+        width: 77px;
+        height: 80px;   
+    }
+    .quest-offcanvas-all-daily-reward-title {
+        font-size: 21px;
+    }
+    .quest-offcanvas-all-daily-text-timer {
+        font-size: 13px;
+    }
+}

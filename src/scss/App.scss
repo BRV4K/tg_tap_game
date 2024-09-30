@@ -1,0 +1,48 @@
+* {
+  font-family: "Advent Pro", sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  position: fixed;
+  width: 100%;
+}
+
+.main-container {
+  //fix-me
+  // height: 100vh;
+  height: 100% !important;
+  padding: 39px 8px 108px 8px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.main-background {
+  background-image: url("../../public/img/background/main-background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.monster-background {
+  background-image: url("../../public/img/background/monster-background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.coin-background {
+  background-image: url("../../public/img/background/bground_main.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.modal-backdrop.show {
+  opacity: 0 !important;
+}

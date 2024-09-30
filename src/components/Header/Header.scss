@@ -1,0 +1,17 @@
+@import '../../scss/global.scss';
+
+.header-container {
+    height: 31px;
+    background-color: $main-bg;
+    padding: 3px 7px;
+}
+
+.header-image-container {
+    max-width: 20px;
+    max-height: 20px;
+    margin-right: 5px;
+}
+
+.header-item-icon-disable {
+    opacity: 20%;
+}

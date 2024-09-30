@@ -1,0 +1,83 @@
+@import "../../scss/global.scss";
+
+.refferal-reward-task-container {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: rgb(0, 0, 0, 60%);
+  border-radius: $main-border-radius-block;
+  max-height: 65px;
+  overflow: hidden;
+
+  padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.refferal-reward-task-container:last-child {
+  margin-bottom: 0;
+}
+
+.refferal-reward-task-title {
+  color: #fff;
+  font-size: 18px;
+}
+
+.refferal-reward-task-reward-container {
+  margin-left: 44px;
+}
+
+.refferal-reward-image {
+  width: 18px;
+  height: 20px;
+}
+
+.refferal-reward-task-amount {
+  margin-top: 2px;
+}
+
+.refferal-reward-task-amount-text {
+  color: #ffbf1a;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.refferal-reward-task-hero-text {
+  color: #ffbf1a;
+  font-size: 12px;
+}
+
+//
+.refferal-reward-claim-button {
+  // margin-right: 28px;
+  width: 29.7px;
+}
+
+.refferal-reward-claim-button-icon-not-completed {
+  opacity: 30%;
+}
+
+.refferal-reward-claim-button-icon-completed {
+  opacity: 100%;
+}
+
+.refferal-reward-task-container-received {
+  opacity: 60%;
+}
+
+.refferal-reward-task-container-completed {
+  cursor: pointer;
+}
+
+.refferal-reward-task-reward-hero {
+  left: -20px !important;
+}
+
+@media (max-width: 349.09px) {
+  .refferal-reward-task-reward-container {
+    margin-left: 20px;
+  }
+  .refferal-reward-task-reward-hero {
+    left: -40px !important;
+  }
+}

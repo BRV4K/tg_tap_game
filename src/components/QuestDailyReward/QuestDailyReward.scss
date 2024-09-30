@@ -1,0 +1,182 @@
+@import "../../scss/global.scss";
+
+.daily-reward-container {
+  height: 153px;
+  min-height: 153px;
+
+  background-color: $main-bg-block;
+
+  // padding: 15px;
+
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 4px;
+  border-radius: $main-border-radius-block;
+
+  margin-bottom: 5px;
+}
+
+.daily-reward-day-count,
+.daily-reward-day-text {
+  font-size: 16px;
+}
+
+.daily-reward-day-count {
+  line-height: 18px;
+  font-size: 24px;
+}
+
+.daily-reward-day-text,
+.daily-reward-day-count,
+.daily-reward-timer-text {
+  color: #b0b0b0;
+}
+
+.daily-reward-title {
+  margin-top: 13px;
+  line-height: 18px;
+  width: 84px;
+}
+
+.daily-reward-title,
+.daily-reward-text {
+  color: #b0b0b0;
+  font-size: 18px;
+}
+
+.daily-reward-day-container {
+  width: 56px;
+  min-width: 56px;
+  height: 75.27px;
+
+  background-image: url("../../../public/img/daily/daily-day.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  cursor: pointer;
+}
+
+.daily-reward-reward-container {
+  // padding-top: 25px;
+  height: auto;
+  // width: 209.31px;
+  // margin-left: 45px;
+}
+
+.daily-reward-next-container {
+  margin-left: 8px;
+}
+
+.daily-reward-previous-container {
+  margin-right: 8px;
+}
+
+.daily-reward-next-container,
+.daily-reward-previous-container {
+  opacity: 40%;
+
+  width: 42.7px;
+  height: 48px;
+  min-width: 42.7px;
+  min-height: 48px;
+}
+
+.daily-reward-current-container {
+  width: 106px;
+  height: 108px;
+}
+
+.daily-reward-current-day-await,
+.daily-reward-current-day {
+  width: 56.93px;
+  height: 64px;
+}
+
+.daily-reward-current-reward {
+  opacity: 100%;
+  color: #b0b0b0;
+  font-size: 18px;
+  line-height: 13px;
+  margin-top: 6px;
+}
+.daily-reward-current-reward-await {
+  opacity: 40%;
+}
+
+.daily-reward-current-day {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.daily-reward-current-day-await {
+  opacity: 40%;
+}
+
+.daily-reward-current-time {
+  font-size: 16px;
+  color: #b0b0b0;
+}
+
+.daily-reward-current-container-image-loading {
+  opacity: 20%;
+}
+
+@media (max-width: 349.09px) {
+  .daily-reward-container {
+    min-height: 140px;
+  }
+
+  .daily-reward-day-container {
+    width: 44px;
+    min-width: 44px;
+    background-size: contain;
+  }
+
+  .daily-reward-day-container svg {
+    height: 14px;
+    width: 30px;
+  }
+
+  .daily-reward-reward-container {
+    // margin-left: 17px;
+  }
+
+  .daily-reward-current-time,
+  .daily-reward-day-count,
+  .daily-reward-day-text {
+    font-size: 13px;
+  }
+
+  .daily-reward-day-count {
+    line-height: 16px;
+    font-size: 16px;
+  }
+
+  .daily-reward-title,
+  .daily-reward-text {
+    font-size: 15px;
+  }
+  // .daily-reward-next-container img,
+  // .daily-reward-previous-container img {
+  //   width: 35px;
+  //   height: 39px;
+  // }
+  // .daily-reward-current-day img {
+  //   width: 43px;
+  //   height: 48px;
+  // }
+  .daily-reward-current-container svg {
+    width: 90px;
+  }
+  .daily-reward-current-reward {
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: -2px;
+  }
+  .daily-reward-previous-container {
+    margin-right: 5px;
+  }
+  .daily-reward-next-container {
+    margin-left: 5px;
+  }
+}

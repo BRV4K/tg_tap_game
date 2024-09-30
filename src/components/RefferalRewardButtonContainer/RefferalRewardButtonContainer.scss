@@ -1,0 +1,11 @@
+@import '../../scss/global.scss';
+
+.refferal-reward-btn-container {
+    padding-top: 0px;
+    padding: 8px;
+    background-color: $main-bg-block;
+
+    border-radius: $main-border-radius-block;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}

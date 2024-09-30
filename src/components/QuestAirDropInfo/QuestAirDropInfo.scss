@@ -1,0 +1,45 @@
+@import '../../scss/global.scss';
+
+.quest-air-drop-info {
+    height: 65px;
+    width: 80px;
+    min-width: 80px;
+
+    background-color: $main-bg-block;
+    border-radius: $main-border-radius-block;
+
+    margin-left: 2.5px;
+
+    cursor: pointer;
+}
+
+.quest-air-drop-info-title {
+    color: #B0B0B0;
+    font-size: 12px;
+    line-height: 10px;
+    margin-top: 4px;
+}
+
+.quest-air-drop-info-offcanvas-container {
+   margin-top: 10%;
+    min-height: 340px;
+    background-image: url("../../../public/img/airdrop/offcanvas/airdrop.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.quest-air-drop-info-offcanvas-title {
+    font-size: 30px;
+    color: #B0B0B0;
+}
+
+@media (max-width: 349.09px) {
+    .quest-air-drop-info {
+        height: 55px;
+        min-width: 70px;
+    }
+    .quest-air-drop-info img{
+        width: 36px;
+        height: 32px; 
+    }
+}

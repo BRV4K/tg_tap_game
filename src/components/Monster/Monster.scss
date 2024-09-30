@@ -1,0 +1,231 @@
+.damage {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    animation: damage 1s linear;
+  }
+  
+  @keyframes damage {
+    0% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  
+    20% {
+      transform: scale(3);
+      top:150px;
+      opacity: 0.5;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 0;
+      top: 50px;
+    }
+  }
+  
+  .coin1 {
+    animation: coin1 1s linear;
+  
+    img {
+      width: 30px;
+      height: 30px;
+      animation: coin-rotate 1s linear;
+    }
+  }
+  
+  .coin2 {
+    animation: coin2 1.2s linear;
+  
+    img {
+      width: 25px;
+      height: 25px;
+      animation: coin-rotate 1.2s linear;
+    }
+  }
+  
+  .coin3 {
+    animation: coin3 0.8s linear;
+  
+    img {
+      width: 20px;
+      height: 20px;
+      animation: coin-rotate 0.8s linear;
+    }
+  }
+  
+  @keyframes coin1 {
+    0% {
+      transform: translateX(0) scale(1);
+    }
+  
+    25% {
+      transform: translateX(30px);
+    }
+  
+    50% {
+      transform: translateX(15px);
+      opacity: 1;
+    }
+  
+    75% {
+      transform: translateX(30px);
+    }
+  
+    100% {
+      top: 130px;
+      transform: scale(0.5);
+      opacity: 0.2;
+    }
+  }
+  
+  @keyframes coin2 {
+    0% {
+      transform: translateX(0) scale(1);
+    }
+  
+    25% {
+      transform: translateX(-30px);
+    }
+  
+    50% {
+      transform: translateX(-15px);
+      opacity: 1;
+    }
+  
+    75% {
+      transform: translateX(-30px);
+    }
+  
+    100% {
+      top: 130px;
+      transform: scale(0.5);
+      opacity: 0.2;
+    }
+  }
+  
+  @keyframes coin3 {
+    0% {
+      transform: translateX(0) scale(1);
+    }
+  
+    25% {
+      transform: translateX(-10px);
+    }
+  
+    50% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  
+    75% {
+      transform: translateX(-10px);
+    }
+  
+    100% {
+      top: 130px;
+      transform: scale(0.5);
+      opacity: 0.2;
+    }
+  }
+  
+  //@keyframes coin1 {
+  //  0% {
+  //    transform: translateY(0) scale(0.3);
+  //  }
+  //
+  //  15% {
+  //    transform: translateY(-40px) translateX(-70px) scale(0.5);
+  //  }
+  //
+  //  30% {
+  //    transform: translateY(-80px) translateX(-100px) scale(0.7);
+  //  }
+  //
+  //  35% {
+  //    transform: translateY(70px) translateX(-120px) scale(1);
+  //  }
+  //
+  //  50% {
+  //    transform: translateY(40px) translateX(-140px) scale(1);
+  //  }
+  //
+  //  65% {
+  //    transform: translateY(70px) translateX(-150px) scale(1);
+  //  }
+  //
+  //  100% {
+  //    transform: translateY(70px) translateX(-150px) scale(1);
+  //  }
+  //}
+  
+  //@keyframes coin2 {
+  //  0% {
+  //    transform: translateY(0) scale(0.3);
+  //  }
+  //
+  //  15% {
+  //    transform: translateY(-40px) translateX(50px) scale(0.5);
+  //  }
+  //
+  //  30% {
+  //    transform: translateY(-80px) translateX(70px) scale(0.7);
+  //  }
+  //
+  //  35% {
+  //    transform: translateY(60px) translateX(80px) scale(1);
+  //  }
+  //
+  //  50% {
+  //    transform: translateY(30px) translateX(90px) scale(1);
+  //  }
+  //
+  //  65% {
+  //    transform: translateY(60px) translateX(100px) scale(1);
+  //  }
+  //
+  //  100% {
+  //    transform: translateY(60px) translateX(100px) scale(1);
+  //  }
+  //}
+  
+  //@keyframes coin3 {
+  //  0% {
+  //    transform: translateY(0) scale(0.3);
+  //  }
+  //
+  //  15% {
+  //    transform: translateY(-40px) translateX(-50px) scale(0.5);
+  //  }
+  //
+  //  30% {
+  //    transform: translateY(-80px) translateX(-70px) scale(0.7);
+  //  }
+  //
+  //  35% {
+  //    transform: translateY(50px) translateX(-90px) scale(1);
+  //  }
+  //
+  //  50% {
+  //    transform: translateY(20px) translateX(-100px) scale(1);
+  //  }
+  //
+  //  65% {
+  //    transform: translateY(40px) translateX(-120px) scale(1);
+  //  }
+  //
+  //  100% {
+  //    transform: translateY(40px) translateX(-120px) scale(1);
+  //  }
+  //}
+  
+  @keyframes coin-rotate {
+    from {
+      transform: rotateY(0);
+    }
+  
+    to {
+      transform: rotateY(-1080deg);
+    }
+  }
+  

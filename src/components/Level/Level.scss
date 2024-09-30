@@ -1,0 +1,33 @@
+.level_container {
+  color: #B0B0B0;
+  margin-top: 12px;
+}
+
+.level_background {
+  width: 125px;
+  background: rgb(23,16,39);
+  background: linear-gradient(90deg, rgba(23,16,39,0) 0%, rgba(23,16,39,0.5) 15%, rgba(23,16,39,0.80) 50%, rgba(23,16,39,0.5) 85%, rgba(23,16,39,0) 100%);
+  padding: 4px;
+}
+
+.level_word {
+  font-size: 16px;
+  line-height: 75%;
+}
+
+.level_value {
+  font-size: 20px;
+  line-height: 80%;
+}
+
+.level_cur_monster {
+  font-size: 14px;
+  padding-top: 4px;
+  line-height: 75%;
+}
+
+.level_arrow {
+  height: 32px;
+  width: 17px;
+  z-index: 2;
+}

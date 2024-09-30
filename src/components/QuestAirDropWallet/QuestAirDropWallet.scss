@@ -1,0 +1,44 @@
+@import '../../scss/global.scss';
+
+.quest-air-drop-wallet-container {
+    height: 65px;
+    background-color: $main-bg-block;
+    border-radius: $main-border-radius-block;
+    margin-right: 2.5px;
+    
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    cursor: pointer;
+}
+
+.quest-air-drop-wallet-icon {
+    // width: 49px;
+    // height: 49px;
+    // background-color:rgb(178, 142, 76, 20%);
+    opacity: 20%;
+}
+
+.quest-air-drop-wallet-title {
+    color: #B0B0B0;
+    opacity: 20%;
+}
+
+@media (max-width: 349.09px) {
+    .quest-air-drop-wallet-container {
+        height: 55px;
+    }
+    .quest-air-drop-wallet-icon {
+        // width: 40px;
+        // height: 40px;
+    }
+    .quest-air-drop-wallet-icon svg {
+        width: 38px;
+    }
+    .quest-air-drop-wallet-lock svg{
+        width: 33px;
+        height: 35px;
+    }
+}
