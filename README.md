@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 В данном проекте я выступаю в роли Frontend-разработчика, верстка всех страниц, создание компонентов, стилей, маршрутизации, Redux, работа с 3Д анимациями и тд.
 
 ## Available Scripts
